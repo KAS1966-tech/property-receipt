@@ -1,0 +1,22 @@
+
+@import "tailwindcss";
+
+/* Load the downloaded Urdu font */
+@font-face {
+  font-family: "Jameel Noori Nastaleeq";
+  src: url("./assets/fonts/jameel-noori-nastaleeq.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Urdu font for receipts */
+.receipt-urdu {
+  font-family: "Jameel Noori Nastaleeq", serif;
+  direction: rtl;
+  text-align: right;
+  line-height: 2.3;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
