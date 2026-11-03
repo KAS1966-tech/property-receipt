@@ -7,6 +7,6 @@ export const shop = {
     phone2: "03067047737",
     address:
         "نزد نوری گیٹ فروکہ، تحصیل ساہیوال، ضلع سرگودھا",
-    logo: "/public/logo.jpg",
+    logo: "logo.jpg",
     currency: "Rs.",
 };
